@@ -14,12 +14,17 @@ The inspiration for GitLens came from the need to provide developers with deeper
   - [LinkedIn](https://www.linkedin.com/in/rachael-ojo/)
 
 ## Technical Details
+For the frontend of the application, HTML and CSS were selected for their simplicity and wide browser compatibility. HTML provides the structure of the web pages, while CSS handles the visual styling. These technologies allow for the creation of clean, responsive, and user-friendly interfaces without the need for additional frameworks.
+
+For the backend, Flask was chosen due to its lightweight and modular design, which makes it an excellent choice for developing scalable web applications. Flask allows for the rapid development of server-side logic with minimal overhead, facilitating quick iterations and easy debugging. Its flexibility and simplicity make it suitable for both small-scale projects and complex applications.
+
+SQLite3 was chosen as the database for its simplicity and efficiency in handling structured data. As a self-contained, serverless, and zero-configuration database, SQLite3 is perfect for development environments and smaller applications where setup and management overhead need to be minimized. Its integration with Flask is straightforward, enabling quick development and deployment cycles.
 
 ### Technology Stack
 
-- **Frontend:** React, HTML, CSS
-- **Backend:** Node.js, Express
-- **Database:** MongoDB
+- **Frontend:** HTML, CSS
+- **Backend:** Flask
+- **Database:** sQLite3
 - **Version Control:** Git, GitHub
 
 ### Architecture
@@ -32,25 +37,25 @@ One of the core algorithms we implemented is the enhanced blame annotation. This
 
 ### Why We Chose These Solutions
 
-i chose React for its component-based architecture, which allows for reusable UI components. Node.js and Express were selected for the backend due to their asynchronous nature and scalability. MongoDB was chosen for its flexibility in handling unstructured data.
+I chose React for its component-based architecture, which allows for reusable UI components. Flask was selected for the backend due to its lightweight nature and simplicity, making it easy to develop and maintain the server-side logic. SQLite3 was chosen for its ease of setup and ability to handle structured data efficiently, making it an excellent choice for development environments and small-scale applications.
 
 ## Challenges and Solutions
 
 ### Challenge 1: Real-time Collaboration
 
-**Solution:** i implemented WebSockets to enable real-time which allows for instant updates and synchronization of code changes.
+**Solution:** I implemented WebSockets to enable real-time which allows for instant updates and synchronization of code changes.
 
 ### Challenge 2: Detailed Blame Annotations
 
-**Solution:** i developed a custom algorithm that integrates with Git to fetch detailed blame information. This involved parsing commit histories and associating each line of code with its respective author.
+**Solution:** I developed a custom algorithm that integrates with Git to fetch detailed blame information. This involved parsing commit histories and associating each line of code with its respective author.
 
 ### Specific Example
 
-One of the major challenges was handling large repositories with extensive commit histories. i optimized our algorithm by implementing lazy loading, which loads commit information on demand rather than all at once.
+One of the major challenges was handling large repositories with extensive commit histories. I optimized our algorithm by implementing lazy loading, which loads commit information on demand rather than all at once.
 
 ## Learnings and Future Iterations
 
-This project has been a tremendous learning experience. i gained deeper insights into Git's inner workings and improved my skills in real-time data processing. For future iterations, i plan to:
+This project has been a tremendous learning experience. I gained deeper insights into Git's inner workings and improved my skills in real-time data processing. For future iterations, I plan to:
 
 - Integrate with more version control systems
 - Enhance the UI/UX for better user experience
@@ -88,7 +93,7 @@ To install and run the GitLens project locally, follow these steps:
 
 ## Contributing
 
-We welcome contributions to the GitLens project! If you'd like to contribute, please follow these steps:
+I welcome contributions to the GitLens project! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch:
