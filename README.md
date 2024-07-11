@@ -24,7 +24,7 @@ SQLite3 was chosen as the database for its simplicity and efficiency in handling
 
 - **Frontend:** HTML, CSS
 - **Backend:** Flask
-- **Database:** sQLite3
+- **Database:** SQLite3
 - **Version Control:** Git, GitHub
 
 ### Architecture
